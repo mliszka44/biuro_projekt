@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+header {
+	background-color:darkgray;
+	color: rgb(51, 51, 51);
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	font-size: 220%;
+}
+header > h3{
+	padding-top: 25px;
+	padding-left: 200px;
+}
+header.video {
+	width: 35%;
+}
+.podnaglowek{
+	height: 50px;
+	width: 100%;
+	background-color: rgb(51, 51, 51);
+	color: darkgrey;
+	text-align: right;
+	display: flex;
+	justify-content: right;
+}
+.pod1{
+	padding-right: 20px;
+	padding-top: 20px;
+}
+.pod2{
+	padding-right: 20px;
+	padding-top: 20px;
+}
+.pod3{
+	padding-right: 20px;
+	padding-top: 20px;
+}
+.dom{
+	height: 450px;
+	text-align: center;
+	margin-top: 50px;
+}
+img {
+	height: 300px;
+	width: 350px;
+	border-radius: 3rem;
+}
+.tytul1 {
+	padding-left: 150px;
+}
+.tekst1{
+	display: flex;
+	flex-wrap: wrap;
+	float: left;
+	padding-left: 150px;
+}
+.zdj1 {
+	padding-left: 700px;
+}
+.tytul2{
+	padding-left: 150px;
+}
+.zdj2{
+	float: left;
+	padding-left: 150px;
+}
+.tekst2 {
+	text-align: center;
+	padding-left: 150px;
+}
+.tytul3{
+	padding-left: 150px;
+	display: flex;
+	clear: both;
+	float: left;
+}
+.tekst3 {
+	padding-left: 150px;
+	height: 200px;
+	width: 700px;
+	clear: both;
+	float: left;
+}
+.zdj33{
+	width: 400px;
+	height: 100px;
+}
+.trzecia {
+	padding-top: 150px;
+
+}
+footer {
+	background-color:rgb(51, 51, 51);
+	color: darkgray;
+	height: 50px;
+	clear: both;
+}
+a{
+	color: darkgray;
+}
+.dom1, .dom2, .dom3{
+	padding-right: 20px;
+	padding-left: 20px;
+}
